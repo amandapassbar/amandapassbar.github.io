@@ -1,14 +1,12 @@
 ﻿function clickedKindle()
 {
 ga('send', 'event', 'clickedKindle', 'click');
+fbq('track', 'Lead');
 }
 
-function clickedColor()
+function clickedPrint()
 {
-ga('send', 'event', 'clickedColor', 'click');
+ga('send', 'event', 'clickedPrint', 'click');
+fbq('track', 'Lead');
 }
 
-function clickedBW()
-{
-ga('send', 'event', 'clickedBW', 'click');
-}
